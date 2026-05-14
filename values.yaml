@@ -1,5 +1,5 @@
 deployment:
-  imageRepo: 348165962265.dkr.ecr.us-east-1.amazonaws.com/stackly/catalogue
+  imageRepo: 160885265516.dkr.ecr.us-east-1.amazonaws.com/stackly/catalogue:1.1.0
   imageVersion: 1.0.1
 service:
   servicePort: 8080 # default value
