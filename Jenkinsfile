@@ -1,4 +1,4 @@
-@Library('jenkins-shared-library') _
+@Library('jenkins-shared-library-NJP') _
 
 properties([
   parameters([
@@ -8,7 +8,7 @@ properties([
 ])
 
 def configMap = [
-    project: "roboshop",
+    project: "stackly",
     component: "catalogue",
     appVersion: (params.appVersion),
     deploy_to: (params.deploy_to)
