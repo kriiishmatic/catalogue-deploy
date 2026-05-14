@@ -8,7 +8,7 @@ properties([
 ])
 
 def configMap = [
-    project: "stackly",
+    project: "roboshop",
     component: "catalogue",
     appVersion: (params.appVersion),
     deploy_to: (params.deploy_to)
